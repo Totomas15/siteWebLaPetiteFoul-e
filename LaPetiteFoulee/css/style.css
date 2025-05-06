@@ -15,3 +15,46 @@ header.nav{
 header img{
     height: 350px;
 }
+h1, p {
+    text-align: center;
+}
+
+.cloud-button {
+      display: inline-block;
+      width: 300px;
+      transition: transform 0.3s ease;
+    }
+
+.cloud-button:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+}
+svg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+text {
+    font-family: Arial, sans-serif;
+    font-size: 1px;
+    pointer-events: none;
+}
+.cloud-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .photo-buttons-section {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .side-img {
+    width: 400px;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
